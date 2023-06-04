@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border:1px solid black
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+       <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+       </thead>
+        <tbody>
+            <tr>
+                <td>Pantaloneta niño</td>
+                <td>9,90$</td>
+            </tr>
+            <tr>
+                <td>Pantaloneta adulto</td>
+                <td>19,90$</td>
+            </tr>
+            <tr>
+                <td>Pantaloneta plus size</td>
+                <td>29,90$</td>
+            </tr> 
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total:59,70$</td>
+        </tfoot>
+
+    </table>
+    <!--ul es una lista no ordenada-->
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+  </ul> 
+  <!--ol es una lista ordenada-->
+  <ol>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <ol>
+        <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+        <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+        <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+    </ol>
+
+  </ol> 
+
+
+    <form action="/formulario" method="GET">
+        <label for="nombre">Nombre</label>
+        <input value="j" type="text" id="nombre" name="nombre" placeholder="Nombre"/> 
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="p" type="text" id="apellido" name="apellido" placeholder="Apellido"/> 
+        <br>
+        <label for="comentario">Comentario</label><br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">este es un valor por defecto</textarea> 
+        <br>
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+
+    </form>
+    <h1>Mi primer heading</h1>
+   <h2>Mi segundo heading</h2>
+   <h3>Mi tercer heading</h3>
+   <h4>Mi cuarto heading</h4>
+   <h5>Mi quinto heading</h5>
+   <h6>Mi sexto heading</h6>
+   <p>Manri el crack.</p>
+   <p>Manri el mas crack</p>
+   <hr>
+   <h2>Manri el pro</h2>
+   <p>nadie como yo <span style="color:blue">y aca vamos a mostrar</span> <br>la etiqueta de span!</p>
+   <!-- esteTextoEsUnComentarioYNoVaAAparecer en el explorador-->
+   <a target="_blank" href="https://www.google.com"> Ir a google </a><br> 
+<img src="messi.jfif" width="400"/>
+
+</body>
+</html>
